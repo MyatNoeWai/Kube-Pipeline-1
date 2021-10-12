@@ -4,7 +4,7 @@ type: kubernetes
 name: default
 
 steps:
-- name: greeting
+- name: greeting1
   image: golang:1.12
   commands:
   - go build
